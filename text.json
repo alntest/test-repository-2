@@ -1,0 +1,15 @@
+{
+  "error": "A problem occurred.",
+  "hello": "Hi",
+  "greetings": "Hello there",
+  "timeago": {
+    "x_days": {
+      "one": "1 day ago",
+      "other": " days ago"
+    },
+    "x_seconds": {
+      "one": "1 second ago",
+      "other": " seconds ago"
+    }
+  }
+}

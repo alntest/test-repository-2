@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="AboutMe" xml:space="preserve">
+    <value>Über mich</value>
+  </data>
+  <data name="AboutMeMaxCharacters" xml:space="preserve">
+    <value>(max. 1000 Zeichen)</value>
+  </data>
+  <data name="AcceptSegment" xml:space="preserve">
+    <value>Akzeptiere dieses Segment</value>
+  </data>
+  <data name="AccountActivatedMessage" xml:space="preserve">
+    <value>Ihr Konto wurde erfolgreich aktiviert. Gib dein Passwort ein und drücke Weiter, um fortzufahren!</value>
+  </data>
+  <data name="AccountActivationInternalError" xml:space="preserve">
+    <value>Dein Konto konnte nicht aktiviert werden. Please check that the confirmation link is entered correctly!</value>
+  </data>
+  <data name="AccountActivationSuccessful" xml:space="preserve">
+    <value>You have successfully activated your account. Log in and explore Text United now!</value>
+  </data>
+  <data name="AccountActivationSuccessfulTranslator" xml:space="preserve">
+    <value>You have successfully activated your account. Log in and create your Text United profile now!</value>
+  </data>
+  <data name="AccountAlreadyActivated" xml:space="preserve">
+    <value>It looks like your account has already been activated! You can now log in.</value>
+  </data>
+  <data name="AccountAlreadyExists" xml:space="preserve">
+    <value>Failed to register the new user. An account with the e-mail {0} already exists.</value>
+  </data>
+  <data name="AccountBlocked" xml:space="preserve">
+    <value>Your account has been blocked.</value>
+  </data>
+  <data name="AccountCreatedMessage" xml:space="preserve">
+    <value>Thanks for signing up. Check your E-MAIL inbox now and click the confirmation link we have just sent you.</value>
+  </data>
+  <data name="AccountCreatedStep2" xml:space="preserve">
+    <value>Your account has been created! Check your E-MAIL inbox now and click the activation link we have just sent you. Then come back here and click the &amp;quot;Next &gt;&amp;quot; button below. We just need to make sure you have access to that e-mail address.</value>
+  </data>
+  <data name="AccountExistsMessage" xml:space="preserve">
+    <value>An account with that e-mail already exists. Please try a different one.</value>
+  </data>
+  <data name="AccountGeneratedPasswordWarning" xml:space="preserve">
+    <value>Your account has a temporary password. Please change it now, otherwise you will not be able to log in again.</value>
+  </data>
+  <data name="AccountPasswordChanged" xml:space="preserve">
+    <value>Your account password has been successfully changed. &lt;br /&gt;You can now log in using the new password.</value>
+  </data>
+  <data name="AccountPasswordChangeError" xml:space="preserve">
+    <value>An unexpected error has occurred. Your password could not be changed.</value>
+  </data>
+  <data name="AccountPasswordExpired" xml:space="preserve">
+    <value>Your account password has expired.</value>
+  </data>
+  <data name="AccountSuccessfullyCreated" xml:space="preserve">
+    <value>Your account was successfully created. Please check your e-mail to activate it!</value>
+  </data>
+  <data name="AccountTypeNotSupported" xml:space="preserve">
+    <value>Your type of account is currently not supported.</value>
+  </data>
+  <data name="AccountTypes" xml:space="preserve">
+    <value>Account types</value>
+  </data>
+  <data name="AccountTypesDesc" xml:space="preserve">
+    <value>Learn more about different account types</value>
+  </data>
+  <data name="AccountWaitingActivation" xml:space="preserve">
+    <value>Go to your e-mail inbox and click on the confirmation link that we sent you.</value>
+  </data>
+  <data name="AdblockPlugin" xml:space="preserve">
+    <value>adBlock plugin</value>
+  </data>
+  <data name="AdblockPluginDesc" xml:space="preserve">
+    <value>The nature of the extension makes it an ideal tool to extract content from websites and just read. With the shortening setting turned all the way down, the widget becomes more of a reader app than anything else. &lt;br /&gt;&lt;br /&gt;Since it works with text, all ads are neatly cut out of the summarization.</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Add a comment</value>
+  </data>
+  <data name="AddCoworker" xml:space="preserve">
+    <value>Add a new co-worker</value>
+  </data>
+  <data name="AddCoworkerDescription" xml:space="preserve">
+    <value>Create a free account for a co-worker or partner company. They will receive an e-mail with a link and temporary password.</value>
+  </data>
+  <data name="AddCoworkerLabel" xml:space="preserve">
+    <value>Add a co-worker</value>
+  </data>
+  <data name="AddDetails" xml:space="preserve">
+    <value>Add details</value>
+  </data>
+  <data name="AdditionalDetails" xml:space="preserve">
+    <value>Show additional details</value>
+  </data>
+  <data name="AddMe" xml:space="preserve">
+    <value>Add me</value>
+  </data>
+  <data name="AddMoreFiles" xml:space="preserve">
+    <value>Add more files</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="AddNewItem" xml:space="preserve">
+    <value>Add new item</value>
+  </data>
+  <data name="AddNewRepository" xml:space="preserve">
+    <value>Add a new repository</value>
+  </data>
+  <data name="AddNewUser" xml:space="preserve">
+    <value>Add new user</value>
+  </data>
+  <data name="AddPartner" xml:space="preserve">
+    <value>Add a partner company</value>
+  </data>
+</root>

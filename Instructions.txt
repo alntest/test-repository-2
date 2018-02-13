@@ -1,0 +1,9 @@
+Instructions
+This is a test file.
+Extract the contents from the zip file.
+Install the file to C:\Program Files
+Copy the translated files back to the locale folder
+Run the program.
+Apply the changes to the UI.
+Set English as the default language.
+From the dropdown menu select save all.

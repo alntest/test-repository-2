@@ -1,0 +1,21 @@
+{
+    "title": "title",
+    "type": "type",
+    "properties": {
+        "firstName": {
+            "type": "This is a test file"
+        },
+        "lastName": {
+            "type": "Enter your e-mail adress"
+        },
+        "age": {
+            "description": "Enter your location",
+            "type": "Choose the files",
+            "minimum": "save the changes"
+            "required": "10 files are selected"
+        }
+    },
+    "required": [
+        "Select folder"
+    ]
+}
